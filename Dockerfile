@@ -1,6 +1,4 @@
-FROM golang:alpine AS build-stage
-
-RUN apk add git
+FROM golang:1.19-alpine AS build-stage
 
 WORKDIR /app
 
